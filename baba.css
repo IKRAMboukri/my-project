@@ -2,7 +2,7 @@ header{
     position:sticky;
     z-index:2;
     top:0;
-    height:50px;
+    height:100px;
     display: flex;
     justify-content: space-evenly;
     align-items:center;
@@ -12,15 +12,12 @@ header{
     backdrop-filter:blur(2px);
 
 }
-header>img{
-    width:50px;
-    height:50px;
-}
 
 .container3{
     display:flex;
     justify-content: space-evenly;
 }
+
 .container4{
     display: flex;
     justify-content: space-evenly;
@@ -28,11 +25,10 @@ header>img{
 
 .cont4{
     display: flex;
-    width: 20%;
+    width: 200px;
     height: 200px;
     border: none;
-    box-shadow: 0 0 20px #8AAEE0 ;
-    
+    box-shadow: 0 0 20px #8AAEE0 ;   
 }
 .container2{
     position: relative;
@@ -60,24 +56,33 @@ header>img{
     display: flex;
     justify-content: center;
     }
+.container3 p{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container4 p{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 img{
     height: 20px;
     width:20px;
 
 }
-header{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 30px;    
-}
 
 a:hover{
-    color:rgb(0, 0, 0);
+    font-size: large;
    
 }
 a{ 
     text-decoration: none;
-    color: rgb(66, 65, 65);
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0 20px #8AAEE0 ;
+    text-shadow: 0 0 20px #194689;
+
 }
 
 
@@ -86,7 +91,7 @@ footer{
     padding: 40px;
     display: flex;
     justify-content: space-evenly; 
-    background-color:#8AAEE0 ;
+    
     height: 200px; 
 }
 
@@ -96,43 +101,20 @@ footer{
     justify-content: space-evenly; 
 
 }
-.container a{
-    color: #7F5539;
-    font-size: 15px;
-    /*text-shadow: 0 0 5px #E6CCB2;*/
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 .cont img{
    width:70px;
    height: 70px;
 }
-.size{
-    width: 40%;
-    height: 400px;
-}
-
-.size2{
-    width: 50%;
-    height: 300px;
-}
-.size3{
-    width: 50%;
-    height: 300px;
-}
-.size4{
-    width: 40%;
-    height: 300px;
-} 
-.size5{
-    width: 40%;
-    height: 300px;
-}  
+ 
 
  h2{
     font-weight: 100;
  }
-.cont{
-    cursor: pointer;
+
+.cont4-1{
+    border:2px solid #194689;
 }
+
 
