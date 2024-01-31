@@ -40,7 +40,7 @@ header{
 
 }
 .container7{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(assets/menu1.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(menu1.png);
     background-size: cover;
     background-position: center;
     width:100%;
@@ -55,16 +55,7 @@ header{
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
-    
-   
-    } 
-.container7 a{
-    color: white;
-    font-size: 20px;
-    text-shadow: 0px 0px 30px 5px #0a981f;
-    font-family: 'Times New Roman', Times, serif;
- 
-}
+    }
 .container3 p{
     display: flex;
     justify-content: center;
@@ -85,7 +76,7 @@ a:hover{
     font-size: large;
    
 }
-header{ 
+a{ 
     text-decoration: none;
     color:white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -96,15 +87,12 @@ header{
 
 
 footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background-color: linear-gradient(to right, #00093c, #2d0b00);
-    color: #fff;
-    padding: 100px 0 30px;
-    border-bottom-left-radius: 125px;
-    font-size: 13px;
-    line-height: 20px;
+    margin-bottom:auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly; 
+    
+    height: 200px; 
 }
 
 
@@ -128,3 +116,5 @@ footer{
 .cont4-1{
     border:2px solid #194689;
 }
+
+
