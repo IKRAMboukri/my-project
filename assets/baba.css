@@ -1,0 +1,120 @@
+header{
+    position:sticky;
+    z-index:2;
+    top:0;
+    height:100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    background-color:rgba(128, 128, 128, 0.571);
+    border-radius:15px;
+    -webkit-backdrop-filter:blur(2px);
+    backdrop-filter:blur(2px);
+
+}
+
+.container3{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cont4{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border: none;
+    box-shadow: 0 0 20px #8AAEE0 ;   
+}
+.container2{
+    position: relative;
+}
+.cont3{
+    position: relative;
+    width: 100%;
+    height: 600px;
+
+}
+.container7{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(menu1.png);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height: 800px;
+    margin-bottom: 30px;
+
+}
+.container7 h1{
+    color: white;
+    font-size: 60px;
+    text-shadow: 0 0 20px #194689;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    }
+.container3 p{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container4 p{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{
+    height: 20px;
+    width:20px;
+
+}
+
+a:hover{
+    font-size: large;
+   
+}
+a{ 
+    text-decoration: none;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 0 20px #8AAEE0 ;
+    text-shadow: 0 0 20px #194689;
+
+}
+
+
+footer{
+    margin-bottom:auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly; 
+    
+    height: 200px; 
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly; 
+
+}
+
+
+.cont img{
+   width:70px;
+   height: 70px;
+}
+ 
+
+ h2{
+    font-weight: 100;
+ }
+
+.cont4-1{
+    border:2px solid #194689;
+}
+
+

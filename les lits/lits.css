@@ -1,0 +1,71 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+ }
+ body{
+    background-color:#8AAEE0 ;
+}
+.all-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont{
+    display: flex;
+    width: 200px;
+    height: 250px;
+}
+.product-price{
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.product{
+    overflow: hidden;
+    background: #ffffff;
+    color: #21201e;
+    text-align: center;
+    width: 240px;
+    height: 340px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.2rem;
+    margin: 2rem;
+}
+.product:hover img{
+    scale:1.1;
+}
+.product:hover {
+    box-shadow: 5px 15px 25px #eeeeee;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1rem;
+    
+}
+.product img{
+    height: 200px;
+    margin: 1rem;
+    transition: all 0.3s;
+}
+.product a:link, .product a:visited {
+    color:#ececec;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #194689;
+    padding: 1.2rem 3rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    transition: all 0.2s;
+
+}
+.product a:hover{
+    transform: scale(1.1);
+}
