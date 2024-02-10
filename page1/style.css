@@ -1,4 +1,4 @@
-header{
+/* header{
     position:sticky;
     z-index:2;
     top:0;
@@ -27,8 +27,8 @@ header ul li a{
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;  
-}
-.container7{
+} */
+/*.container7{
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(assets/menu1.png);
     background-size: cover;
     background-position: center;
@@ -159,5 +159,29 @@ footer{
     width: 210px;
     height: 260px;
     box-shadow: 0 0 20px #8AAEE0 ;
+    
+}*/
+*{
+    box-sizing: border-box;
 }
+img{
    
+    width: 50%;
+
+    
+}
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+h2{
+    color: rgb(34, 97, 34);
+   
+}
+.table{
+    margin-top: 20px;
+}
+.para{
+    margin-top: 160px;
+}
