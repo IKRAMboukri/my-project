@@ -173,6 +173,7 @@ img{
 .container1{
     display: flex;
     justify-content: space-evenly;
+    
    
 }
 h2{
@@ -184,4 +185,10 @@ h2{
 }
 .para{
     margin-top: 160px;
+}
+.noir{
+    color: grey;
+}
+.marron{
+    color: rgba(179, 24, 24, 0.245);
 }
