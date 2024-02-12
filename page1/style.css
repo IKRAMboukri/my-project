@@ -210,7 +210,8 @@ p{
     margin-right: 20px;
 }
 .para{
-    margin-top: 190px;
+    margin-top: 80px;
+    margin-right: 60px;
 }
 .noir{
     color: grey;
@@ -234,7 +235,7 @@ p{
     margin-left: 100px;
 }
 .title2-para{
-    margin-top: 200px;
+    margin-top: 100px;
 
 }
 .color{
@@ -246,4 +247,25 @@ p{
 a{
     text-decoration: none;
     cursor: pointer;
+}
+.icone{
+    width: 270px;
+}
+.icone-para{
+    margin-left: 50px;
+
+}
+.container7{
+    display: flex;
+    justify-content: space-between;
+}
+.fote{
+    width: 270px; 
+    height: 180px;
+}
+div>h3{
+    margin-left: 50px;
+}
+.bordure{
+    border: rgba(105, 10, 10, 0.215) 2px solid;
 }
