@@ -6,7 +6,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items:center;
-    background-color:rgba(128, 128, 128, 0.571);
+    background-color:#1a4b93;
     border-radius:15px;
     -webkit-backdrop-filter:blur(2px);
     backdrop-filter:blur(2px);
