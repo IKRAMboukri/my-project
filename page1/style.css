@@ -274,10 +274,14 @@ div > h3 {
   background-color: #0d2c56;
   color: white;
 }
-footer {
-  height: 300px;
+
+.para1-foot{
+  
+  margin-top: 20px;
+}footer {
+  height: 270px;
   width: 100%;
-  background-color: #0d2c56;
+  background-color: black;
   color: white;
   
 }
@@ -292,8 +296,6 @@ footer a:hover{
   color: #F9F295;
   margin-left: 0px;
   margin-top: 2px;
-  
-
 }
 .cont-fo{
   display: flex;
@@ -325,12 +327,10 @@ footer img{
 }
 .cont2{
   display: flex;
-  
-  margin-top: 40px;
+  align-items: center;
 }
-.para1-foot{
+.cont2>p{
   
-  margin-top: 20px;
 }
 .para1-foot p{
   margin-top: 0px;
