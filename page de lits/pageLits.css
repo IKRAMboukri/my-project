@@ -1,4 +1,10 @@
 
+@font-face {
+  font-family: ecriture_nav2;
+  src: url(matisan_script/MatisanScript_PERSONAL_USE_ONLY.otf);
+}
+  
+  
   .listProduct .item img{
     width:250px;
     height: 200px;
@@ -165,5 +171,6 @@ header h1{
   justify-content: center;
   margin-top: 100px;
   text-shadow: orange   5px 5px 30px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: ecriture_nav2;
+   
 }
