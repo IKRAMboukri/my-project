@@ -45,7 +45,21 @@
   display: flex;
 }
 section {
-  margin-top: 90px;
+  margin-top: 60px;
+}
+.btn-pls{
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.promo{
+  height:150px;
+  background-color:rgba(124, 117, 117, 0.885);
+  width: 100%;
 }
 
 
@@ -159,6 +173,18 @@ h2 + p span {
 #image2{
   width: 325px;
   height: 300px; 
+}
+section>p{
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.358);
+  margin-bottom: 20px;
+  
+}
+section h1{
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.492);
 }
 
 
