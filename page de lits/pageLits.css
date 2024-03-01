@@ -1,195 +1,211 @@
-
 @font-face {
   font-family: ecriture_nav2;
   src: url(matisan_script/MatisanScript_PERSONAL_USE_ONLY.otf);
 }
 
+.listProduct .item img {
+  width: 250px;
+  height: 200px;
+  filter: drop-shadow(0 50px 20px #0009);
+}
+.listProduct {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeee6;
+  border-radius: 20px;
+  width: 250px;
+  height: 300px;
+  justify-content: space-evenly;
+}
 
-  .listProduct .item img{
-    width:250px;
-    height: 200px;
-    filter: drop-shadow(0 50px 20px #0009);
-  }
-   .listProduct {
-    display: flex;
-    justify-content: space-between;
-    gap:20px;
-    margin-top: 30px;
-
-  }
-  .item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    background-color: #eeeee6;
-    border-radius: 20px;
-    width: 250px;
-    height:300px;
-    justify-content:space-evenly;
-  }
-
-  .listProduct .item h2{
-    font-weight: 500;
-    font-size: large;
-    text-align: center;
-  }
- .listProduct .item .price{
+.listProduct .item h2 {
+  font-weight: 500;
+  font-size: large;
+  text-align: center;
+}
+.listProduct .item .price {
   letter-spacing: 7px;
   font-size: small;
   text-align: center;
- }
- .item button{
+}
+.item button {
   background-color: #353432;
   color: #eee;
   border-radius: 20px;
   border: none;
   cursor: pointer;
   display: flex;
- }
-section{
+}
+section {
   margin-top: 90px;
 }
 
+
 /* header */
-.container{
+.container {
   width: 100%;
   height: 450px;
   background-color: orange;
-  display:flex;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 80px;
+  
 }
-header{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- 
+header {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.container img{
+.container img {
   width: 30%;
-  height:250px;
-  margin-left: 150px;
-  margin-top: 70px;
+  height: 250px;
   filter: drop-shadow(0 50px 20px #0009);
 }
-.cont{
-  margin-top: 70px;
+.cont {
   color: white;
 }
-.cont h2{
+.cont h2 {
   font-size: 1.5em;
-  
-  font-weight:900;
+
+  font-weight: 900;
 }
-h2+p span{
+h2 + p span {
   margin-left: 30px;
   text-decoration: line-through;
   color: rgba(255, 255, 255, 0.679);
-
-
 }
-#space{
-  color:rgba(255, 255, 255, 0.679) ;
+#space {
+  color: rgba(255, 255, 255, 0.679);
   margin-left: 30px;
   font-weight: 200;
-} 
-.btn button{
+}
+.btn button {
   width: 30px;
   height: 30px;
   border: none;
   border-radius: 50px;
 }
-#purple{
+#purple {
   background-color: rgb(164, 12, 164);
 }
-#pink{
+#pink {
   background-color: pink;
 }
-#green{
+#green {
   background-color: rgb(17, 81, 20);
 }
-#brown{
+#brown {
   background-color: rgb(144, 90, 18);
 }
-#blue{
+#blue {
   background-color: rgb(52, 52, 113);
 }
-#black{
+#black {
   background-color: grey;
 }
-#descp{
+#descp {
   font-weight: 600;
-  font-size:  1em;
+  font-size: 1em;
+}
+#para {
+}
 
+#btn-panier {
+  width: 150px;
+  height: 40px;
+  margin-left: 35px;
+  margin-top: 15px;
+  background-color:#353432;
+  border: none;
+  cursor: pointer;
+  color: #eee;
+  
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  bottom: 20px;
+}
+.container2 img{
+  width: 270px;
+  height: 180px;
 }
 
 /*footer*/
- .para1-foot{
-
+.para1-foot {
   margin-top: 20px;
-}footer {
+}
+footer {
   height: 270px;
   width: 100%;
   background-color: black;
   color: white;
   margin-top: 20px;
-
 }
-footer a{
+footer a {
   color: white;
   margin-left: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: large;
   text-decoration: none;
 }
-footer a:hover{
+footer a:hover {
   padding: 10px;
 }
-.cont-fo>p {
-  color: #F9F295;
+.cont-fo > p {
+  color: #f9f295;
   margin-left: 0px;
   margin-top: 2px;
 }
-.cont-fo{
+.cont-fo {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.cont-tout{
+.cont-tout {
   display: flex;
   justify-content: space-evenly;
 
   padding-top: 30px;
 }
-.livraison>p{
-  color: #F9F295;
+.livraison > p {
+  color: #f9f295;
 }
-footer img{
+footer img {
   width: 40px;
   height: 40px;
-
 }
-.cont{
+.cont {
   color: white;
   margin-left: 5px;
 }
-.cont2{
+.cont2 {
   display: flex;
   align-items: center;
 }
 
-.para1-foot p{
+.para1-foot p {
   margin-top: 0px;
 }
-.titre-foot{
+.titre-foot {
   margin-top: 70px;
-
 }
-
 
 /*nav*/
 
 nav {
   backdrop-filter: blur(5px);
-  background-color:black ;
+  background-color: black;
   width: 100%;
   height: 60px;
   position: fixed;
@@ -197,49 +213,43 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 nav ul {
   display: flex;
   margin: 0;
   padding: 0;
   gap: 15px;
-  margin-left:25px;
+  margin-left: 25px;
 }
 nav ul li {
   margin: 0 !important;
   padding: 0;
-
 }
-nav ul li a{
+nav ul li a {
   color: white;
   text-decoration: none;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: large;
-
 }
-nav ul li a:hover{
+nav ul li a:hover {
   padding: 15px;
   background-color: orange;
   color: black;
   margin: 20px;
-  font-family:cursive;
-
+  font-family: cursive;
 }
-.end{
+.end {
   display: flex;
-
 }
-.end img{
+.end img {
   height: 45px;
   width: 40px;
 }
-header h1{
+header h1 {
   color: black;
   display: flex;
   justify-content: center;
   margin-top: 100px;
-  text-shadow: orange   5px 5px 30px;
+  text-shadow: orange 5px 5px 30px;
   font-family: ecriture_nav2;
-
 }
