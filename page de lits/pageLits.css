@@ -14,7 +14,6 @@
   justify-content: space-evenly;
   gap: 20px;
   margin-top: 30px;
-  
 }
 
 .item {
@@ -26,9 +25,9 @@
   border-radius: 20px;
   width: 250px;
   height: 350px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
-.item:hover{
+.item:hover {
   box-shadow: 0px 0px 80px 1px #0d2b5673;
 }
 
@@ -36,7 +35,6 @@
   font-weight: 500;
   font-size: large;
   text-align: center;
- 
 }
 .listProduct .item .price {
   letter-spacing: 7px;
@@ -48,7 +46,7 @@
   color: #eee;
   border-radius: 10px;
   height: 40px;
-  width:150px;
+  width: 150px;
   border: none;
   cursor: pointer;
   display: flex;
@@ -59,7 +57,7 @@
 section {
   margin-top: 60px;
 }
-.btn-pls{
+.btn-pls {
   width: 100px;
   height: 40px;
   cursor: pointer;
@@ -68,24 +66,22 @@ section {
   border: none;
   border-radius: 8px;
 }
-.promo{
-  height:100px;
+.promo {
+  height: 100px;
   background-color: #928a8a4a;
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center; 
-  margin-top: 30px; 
+  justify-content: center;
+  margin-top: 30px;
   flex-direction: column;
 }
-.promo h1{
+.promo h1 {
   color: red;
 }
-.promo p{
+.promo p {
   color: rgba(0, 0, 0, 0.541);
-
 }
-
 
 /* header */
 .container {
@@ -97,7 +93,6 @@ section {
   align-items: center;
   gap: 70px;
   margin-top: 40px;
-  
 }
 header {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -161,65 +156,62 @@ h2 + p span {
   height: 40px;
   margin-left: 35px;
   margin-top: 15px;
-  background-color:#353432;
+  background-color: #353432;
   border: none;
   cursor: pointer;
   color: #eee;
-  
+  border-radius: 6px;
 }
-.container2{
+.container2 {
   display: flex;
   justify-content: center;
   gap: 10px;
   position: relative;
   bottom: 20px;
 }
-.container2 img{
+.container2 img {
   width: 270px;
   height: 180px;
 }
-.cont-3 p{
-  text-align:justify;
+.cont-3 p {
+  text-align: justify;
   width: 400px;
 }
-.container3{
+.container3 {
   display: flex;
   justify-content: space-around;
 }
-#image1{
+#image1 {
   width: 200px;
   height: 200px;
   position: relative;
-  left:100px; 
-  bottom:30px;
-
+  left: 100px;
+  bottom: 30px;
 }
-#image2{
+#image2 {
   width: 325px;
-  height: 300px; 
+  height: 300px;
 }
-section>p{
+section > p {
   display: flex;
   justify-content: center;
   color: rgba(0, 0, 0, 0.358);
   margin-bottom: 20px;
-  
 }
-section h1{
+section h1 {
   display: flex;
   justify-content: center;
   color: rgba(0, 0, 0, 0.492);
 }
 
-
 /*footer*/
- .para1-foot {
+.para1-foot {
   margin-top: 20px;
 }
 footer {
   height: 270px;
-  width: 100%; 
-   background-color: black;
+  width: 100%;
+  background-color: black;
   color: white;
   margin-top: 20px;
 }
@@ -270,7 +262,7 @@ footer img {
 }
 .titre-foot {
   margin-top: 70px;
-} 
+}
 
 /*nav*/
 
@@ -325,13 +317,11 @@ header h1 {
   text-shadow: orange 5px 5px 30px;
   font-family: ecriture_nav2;
 }
-#panier{
+#panier {
   margin-right: 25px;
   position: absolute;
-  
- 
 }
-#pan{
+#pan {
   background-color: red;
   width: 14px;
   height: 14px;
@@ -340,11 +330,11 @@ header h1 {
   position: relative;
   margin-top: 20px;
   z-index: 1;
-  
 }
-#pan span{
+#pan span {
   color: white;
-   font-weight: 900; 
-  
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
