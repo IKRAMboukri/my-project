@@ -273,7 +273,10 @@ section{
   
   font-family: ecriture_nav4;
 }
-
+h2+p{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.652);
+}
 
 .lignéa-para {
   margin-right: 90px;
@@ -386,4 +389,92 @@ footer img{
 }
 .cont2 p{
   color: white;
+}
+.adresse{
+  color:#F9F295;
+}
+@media (max-width:650px) {
+   .container7{
+    flex-direction: column;
+    gap:15px;
+    display: flex;
+    justify-content: center;
+   }
+   .bordure{
+    width: 57%;
+    margin-left: 95px;
+   }
+   .fote {
+    width: 272px;
+   }
+   .contenue {
+    margin-top: 90px;
+    color: #e86e86 ;
+    display: inline-block;
+    animation: mouvement 4s infinite;
+    font-family: ecriture_nav2;
+   
+  }
+  @keyframes mouvement {
+     from{
+      opacity: 0;
+      transform: translateX(0px);
+     }
+     to{
+      opacity: 1;
+      transform: translateX(36px);
+     }
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;
+    background-color: #928a8a4a;
+  }
+  nav ul{
+    width: 100px;
+  }
+  .deco h1 span{
+    display: flex;
+    justify-content: center;
+  }
+  .cont-tout{
+    flex-direction: column;
+    
+  }
+  footer {
+    height: 593px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+  }
+  .canapé{
+    width: 90%;
+    margin-top: 140px;
+    margin-left: 17px;
+  }
+  .title-para{
+    margin-left: 50px;
+    margin-top: 35px;
+    
+    
+  }
+  h2 span{
+    display: flex;
+    justify-content: center;
+  }
+  .milieu{
+    margin-left: 30px;
+  }
+  .table {
+    margin-right: 50px;
+    margin-top: 30px;
+    width: 450px;
+    
+  }
+  
 }
