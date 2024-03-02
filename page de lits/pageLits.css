@@ -325,4 +325,26 @@ header h1 {
   text-shadow: orange 5px 5px 30px;
   font-family: ecriture_nav2;
 }
+#panier{
+  margin-right: 25px;
+  position: absolute;
+  
+ 
+}
+#pan{
+  background-color: red;
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  margin-right: 48px;
+  position: relative;
+  margin-top: 20px;
+  z-index: 1;
+  
+}
+#pan span{
+  color: white;
+   font-weight: 900; 
+  
+}
 
