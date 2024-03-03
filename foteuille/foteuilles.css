@@ -1,4 +1,4 @@
-.listProduct .item img{
+/* .listProduct .item img{
   width:250px;
   height: 200px;
   filter: drop-shadow(0 50px 20px #0009);
@@ -39,19 +39,37 @@ color: #eee;
 
 border-radius: 20px;
 /* margin-top: 10px; */
-border: none;
+/* border: none;
 cursor: pointer;
 display: flex;
 
-}
-section{
+} */
+/* section{
   margin-top: 45px;
+}  */
+.container{
+   height: 240px;
+   width: 99%;
+   background-color:	#C0C0C0;
+   position: absolute;
+}
+.image-header{
+  width: 50%;
+  height: 340px;
+  margin-left: 310px; 
+  position: relative;
+  z-index: 1;
+  margin-top: 165px;
+  
+}
+.para-home{
+  text-align: center;
 }
 
 /*nav*/
 nav {
-  backdrop-filter: blur(5px);
-  background-color:black ;
+  /* backdrop-filter: blur(5px); */
+   /* background-color:#124076;  */
   width: 100%;
   height: 60px;
   position: fixed;
@@ -59,6 +77,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
+  
   
 }
 nav ul {
@@ -66,7 +86,10 @@ nav ul {
   margin: 0;
   padding: 0;
   gap: 15px;
-  margin-left:25px;
+   margin-left:420px; 
+  
+ justify-content: center;
+  
 }
 nav ul li {
   margin: 0 !important;
@@ -82,8 +105,8 @@ nav ul li a{
 }
 nav ul li a:hover{
   padding: 15px;
-  background-color: plum;
-  color: black;
+  background-color:  #D2C0A7;
+  color: #63340b;
   margin: 20px;
   font-family:cursive;
   
@@ -96,16 +119,41 @@ nav ul li a:hover{
   height: 45px;
   width: 40px;
 }
-header h1{
-  color: black;
+#panier {
+  margin-right: 29px;
+  position: absolute;
+}
+#pan {
+  background-color: red;
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  margin-right: 48px;
+  position: relative;
+  margin-top: 28px;
+  z-index: 1;
+}
+#pan span {
+  color: white;
+  font-weight: 900;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.container>h2{
+  
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
   margin-top: 100px;
-  text-shadow: purple   5px 5px 30px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: #124076   5px 5px 30px; 
+  font-size:x-large;
+  font-family:Georgia,'Times New Roman', Times, serif;
+  
 }
 /*footer*/
-.para1-foot{
+/* .para1-foot{
   
   margin-top: 20px;
 }footer {
@@ -165,4 +213,4 @@ footer img{
 .titre-foot{
   margin-top: 70px;
   
-}
+} */
