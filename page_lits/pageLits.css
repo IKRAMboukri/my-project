@@ -127,7 +127,7 @@ h2 + p span {
   border-radius: 50px;
 }
 #purple {
-  background-color: rgb(164, 12, 164);
+  background-color: red;
 }
 #pink {
   background-color: pink;
@@ -148,7 +148,8 @@ h2 + p span {
   font-weight: 600;
   font-size: 1em;
 }
-#para {
+button:hover {
+  background-color: black;
 }
 
 #btn-panier {
@@ -161,6 +162,9 @@ h2 + p span {
   cursor: pointer;
   color: #eee;
   border-radius: 6px;
+}
+#btn-panier:hover{
+  background-color: black;
 }
 .container2 {
   display: flex;
@@ -217,14 +221,14 @@ footer {
 }
 footer a {
   color: white;
-  margin-left: 30px;
+  margin-left: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: large;
   text-decoration: none;
 }
-footer a:hover {
+/* footer a:hover {
   padding: 10px;
-}
+} */
 .cont-fo > p {
   color: #f9f295;
   margin-left: 0px;
@@ -241,7 +245,7 @@ footer a:hover {
 
   padding-top: 30px;
 }
-.livraison > p {
+.livraison > h3 {
   color: #f9f295;
 }
 footer img {
@@ -261,7 +265,12 @@ footer img {
   margin-top: 0px;
 }
 .titre-foot {
-  margin-top: 70px;
+  margin-top: 20px;
+  color: #f9f295;
+}
+footer a:hover {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
 }
 
 /*nav*/
@@ -296,11 +305,8 @@ nav ul li a {
   font-size: large;
 }
 nav ul li a:hover {
-  padding: 15px;
-  background-color: orange;
-  color: black;
-  margin: 20px;
-  font-family: cursive;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
 }
 .end {
   display: flex;
